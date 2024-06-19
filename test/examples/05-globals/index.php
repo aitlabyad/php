@@ -17,7 +17,9 @@ var_dump($_POST['post2']);
 print($_COOKIE['cookie1'] . PHP_EOL);
 var_dump($_COOKIE['cookie2']);
 
-print($_REQUEST['get1'] . PHP_EOL);
+print($_REQUEST['get1'] . PHP_EOL);  
+
+
 var_dump($_REQUEST['get2']);
 print($_REQUEST['post1'] . PHP_EOL);
 var_dump($_REQUEST['post2']);
